@@ -6,7 +6,7 @@ var webdriverioPage = Object.create(Page, {
     apiLink: {get: function(){ return browser.element('*=API')}},
     contributingLink: {get: function(){ return browser.element('a[href="/contribute.html"]')}},
     searchControl: {get: function(){ return browser.element('input.ds-input')}},
-    searchTextBox: {get: function(){ return browser.element('input[name="search"]')}},
+    //searchTextBox: {get: function(){ return browser.element('input[name="search"]')}},
  
 });
 

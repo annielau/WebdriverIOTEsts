@@ -14,6 +14,7 @@ describe('search functionallity', function(){
 		WebdriverIOPage.searchControl.setValue('mocha');
 		browser.waitForExist('#ds-dataset-1', 1000000);
 		browser.isExisting('#ds-dataset-1');
+		
 		//WebdriverIOPage.searchControl.keys('enter');
 	});
 });
