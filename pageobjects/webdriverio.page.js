@@ -7,6 +7,7 @@ var webdriverioPage = Object.create(Page, {
     contributingLink: {get: function(){ return browser.element('a[href="/contribute.html"]')}},
     searchControl: {get: function(){ return browser.element('input.ds-input')}},
     //searchTextBox: {get: function(){ return browser.element('input[name="search"]')}},
+    selectorContent: {get: function(){ return browser.element('#Selectors')}},
  
 });
 

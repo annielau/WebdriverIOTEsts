@@ -9,12 +9,10 @@ describe('search functionallity', function(){
 
 	});
 
-	it('should display the suggestion control after look for a word', function(){
+	it('should display the right page after look for a word', function(){
 		browser.url('/');
-		WebdriverIOPage.searchControl.setValue('mocha');
-		browser.waitForExist('#ds-dataset-1', 1000000);
-		browser.isExisting('#ds-dataset-1');
-		
-		//WebdriverIOPage.searchControl.keys('enter');
+		WebdriverIOPage.searchControl.setValue('selectors');
+		WebdriverIOPage.searchControl.keys('Enter');
+		expect(WebdriverIOPage.searchControl.isExisting()).to.be.true;
 	});
 });
