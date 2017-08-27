@@ -8,3 +8,5 @@ by Ana Milesi
 Things that blocked me:
 Firstly I tried to use Cucumber framework because I'm more familiarized than with Mocha.
 But I had a lot of issues setting my enviroment (issues with Java, node-gyp). I spent a few time triying to do it works but I couldn't so I decided to do it with Mocha.
+
+Issues with timeouts, wait to load controls

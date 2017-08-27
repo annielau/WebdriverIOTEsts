@@ -85,11 +85,11 @@ exports.config = {
     baseUrl: 'http://webdriver.io/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 20000,
+    waitforTimeout: 2000000,
     //
     // Default timeout in milliseconds for request
     // if Selenium Grid doesn't send response
-    connectionRetryTimeout: 90000,
+    connectionRetryTimeout: 3000000,
     //
     // Default request retries count
     connectionRetryCount: 3,
