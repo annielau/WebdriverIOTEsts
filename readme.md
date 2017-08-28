@@ -20,7 +20,8 @@ by Ana Milesi
 But I had a lot of issues setting my environment (issues with Java, node-gyp). 
 I spent a few time trying to do it works but I couldn't so I decided to do it with Mocha.
 3. I also had a few issues with timeouts, wait to load controls, etc
-4. I couldn't implement a Custom Report, I had issues trying to implement it. So I decided to leave it and use Spec reporter.
+4. I couldn't implement a Custom Report, I had issues trying to implement it.  
+So I decided to leave it and use Spec reporter.
 ```
 
 Another thing, I found a WebdriverUI bug :)
