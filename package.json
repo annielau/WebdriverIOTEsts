@@ -14,5 +14,8 @@
     "wdio-mocha-framework": "^0.5.11",
     "wdio-selenium-standalone-service": "0.0.9",
     "webdriverio": "^4.8.0"
+  },
+  "dependencies": {
+    "wdio-spec-reporter": "^0.1.2"
   }
 }

@@ -26,6 +26,16 @@ describe('webdriver.io test menue options', function (){
 		var title= browser.getTitle();
 		assert.equal(title,'WebdriverIO - Contributing');
 	});
+
+	it ('should display button to improve the doc on guide page', function(){
+		WebdriverIOPage.guideLink.click();
+		expect(WebdriverIOPage.improveDoc.isExisting()).to.be.true;
+	})
+
+	it ('should display button to improve the doc on API page', function(){
+		WebdriverIOPage.apiLink.click();
+		expect(WebdriverIOPage.improveDoc.isExisting()).to.be.true;
+	})
 });
 
 
